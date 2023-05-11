@@ -13,6 +13,10 @@ sudo rm -rf /var/www/html/*
 export BZT_VERSION="1.16.0"
 sudo pip3 install bzt==$BZT_VERSION
 
+# URLLIB3
+export URLLIB3="1.26.15"
+sudo pip3 install urllib3==$URLLIB3
+
 # LOCUST
 export LOCUST_VERSION="2.9.0"
 sudo pip3 install locust==$LOCUST_VERSION
